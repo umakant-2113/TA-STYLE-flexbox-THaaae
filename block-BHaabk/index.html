@@ -1,0 +1,98 @@
+<!-- 
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex-Box</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header-div">
+        <div class="brand-div">
+          <img class="brand" src="./assest/Logo.png" alt="logo " />
+        </div>
+        <h1>STARBUCKS</h1>
+        <nav>
+          <a class="nav-tag" href="#">Home</a>
+          <a class="nav-tag" href="#">Service</a>
+          <a class="nav-tag" href="#">About</a>
+        </nav>
+      </div>
+    </header>
+    <!--         main      -->
+    <main>
+      <article class="container article">
+        <div class="article-div1">
+          <h2>this is our first assignment of flexbox</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+            inventore explicabo! At natus beatae perferendis, esse, distinctio
+            reiciendis adipisci nobis quos accusamus quia delectus rem iure.
+            Quam reiciendis nisi repellendus. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Ut modi amet perferendis illum,
+            molestias unde velit hic assumenda culpa dicta fugiat, dolor tempora
+            sapiente mollitia corrupti natus. Accusantium, porro quaerat? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Possimus autem
+            dolorem quas, hic ea, cupiditate illum nesciunt vitae dicta enim
+            repellat beatae ullam atque consectetur culpa nisi. Eveniet, facilis
+            nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Blanditiis aspernatur, vel libero iste magnam amet consectetur
+            repellendus commodi molestias reprehenderit perspiciatis magni
+            deleniti facilis atque maiores error, asperiores ut debitis? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+            obcaecati. Itaque suscipit repudiandae sequi nostrum veniam animi
+            cum minima illo laborum adipisci odio explicabo rerum voluptatum,
+            vero ducimus id rem.
+          </p>
+        </div>
+        <div class="article-div2">
+          <img class="article-div2-img" src="./assest/pic5.jpg" alt=" picture1" />
+        </div>
+      </article>
+
+      <section class="container">
+        <div class="section">
+          <div class="gelery-box">
+            <img class="gelery-image" src="./assest/pic13.jpg" alt="image " />
+          </div>
+          <div class="gelery-box">
+            <img class="gelery-image" src="./assest/pic14.jpeg" alt="image" />
+          </div>
+          <div class="gelery-box">
+            <img class="gelery-image" src="./assest/pic10.jpeg" alt="image" />
+          </div>
+          <div class="gelery-box">
+            <img class="gelery-image" src="./assest/pic8.jpg" alt="image" />
+          </div>
+          <div class="gelery-box">
+            <img class="gelery-image" src="./assest/pic7.jpg" alt="image" />
+          </div>
+          <div class="gelery-box">
+            <img class="gelery-image" src="./assest/pic1.jpeg" alt="image" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="container">
+      <div>
+        <small>Copy Write Of The Starbucks </small>
+      </div>
+    </footer>
+  </body>
+</html>
