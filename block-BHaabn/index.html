@@ -6,3 +6,67 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper.
 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex box</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/ebfce09c34.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container flex">
+        <a class="brand" href="#">
+          <img src="./assets/altcampus-logo.jpg" alt="" />
+        </a>
+
+        <nav class="header-nav">
+          <a class="nav-div" href="#">HOME</a>
+          <a class="nav-div active" href="#">GELERY</a>
+          <a class="nav-div" href="#">ABOUT</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="gelery">
+        <h1>GELERY</h1>
+        <div class="container gelery-img">
+          <div class="gelery-box">
+            <img src="./assets/01.png" alt="image" />
+          </div>
+          <div class="gelery-box">
+            <img src="./assets/02.png" alt="image" />
+          </div>
+          <div class="gelery-box">
+            <img src="./assets/03.png" alt="image" />
+          </div>
+          <div class="gelery-box">
+            <img src="./assets/04.png" alt="image" />
+          </div>
+          <div class="gelery-box">
+            <img src="./assets/05.png" alt="image" />
+          </div>
+          <div class="gelery-box">
+            <img src="./assets/06.png" alt="image " />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <small>&COPY;ALTCampus</small>
+        <div class="footer-div">
+          <a class="footer-nav" href="#"><i class="fab fa-facebook-f"></i></a>
+          <a class="footer-nav" href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
